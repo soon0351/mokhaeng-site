@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>이번 가을, 목행에서 만나요 | 목행시장</title>
+  <meta name="description" content="2026년 11월, 충주 목행시장에서 파크골프 3대가족 챌린저와 낭만상회 야시장이 열립니다. 가족과 함께 웃음과 추억을 만드세요.">
+  <link rel="canonical" href="https://mokhaeng.com/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="이번 가을, 목행에서 만나요 | 목행시장">
+  <meta property="og:description" content="2026년 11월, 충주 목행시장에서 파크골프 3대가족 챌린저와 낭만상회 야시장이 열립니다.">
+  <meta property="og:url" content="https://mokhaeng.com/">
+  <meta property="og:image" content="https://mokhaeng.com/assets/market-night-odeng.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="booth-popup.css">
+  <script defer src="home.js"></script>
+  <script defer src="booth-popup.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#events">행사 선택으로 바로가기</a>
+  
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="목행시장 행사 메인">
+      <img src="assets/mokhaeng-logo.png" alt="목행시장 MOKHAENG MARKET" width="190" height="48" fetchpriority="high">
+    </a>
+    <span class="header-label">2026 <span aria-hidden="true">·</span> 목행의 가을</span>
+  </header>
+  
+  <main class="wrap" id="main">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">함께하는 즐거움이 있는 곳, 충주 목행시장</p>
+      <h1 id="page-title">이번 가을, <em>목행에서 만나요.</em></h1>
+      <p class="intro-desc">낮에는 함께 치고, 밤에는 함께 즐겨요.<br>궁금한 행사를 눌러 자세히 만나보세요.</p>
+    </section>
+    
+    <section class="event-grid" id="events" aria-label="목행시장 행사 홈페이지 선택">
+      <!-- 파크골프 카드 -->
+      <a class="event-card" href="/golf/">
+        <div class="card-image">
+          <img src="assets/park-golf-card.png" alt="미니 파크골프 코스에서 함께 경기하고 응원하는 3대가족 연출 이미지" width="800" height="400" fetchpriority="high">
+          <span class="image-badge">⚑ 우리 가족의 한 라운드</span>
+        </div>
+        <div class="card-body">
+          <p class="card-kicker">세대는 달라도, 우리는 한 팀</p>
+          <h2 class="card-title">목행 파크골프 <span>3대가족 챌린저</span></h2>
+          <div class="card-info">
+            <p><strong>11. 06 <small>금</small> — 11. 08 <small>일</small></strong></p>
+            <p>3대가족 · 3인 1팀</p>
+            <p class="card-location">목행시장 고객지원센터 앞 주차장 특설코스</p>
+          </div>
+          <span class="card-cta">파크골프대회 홈페이지 바로가기 <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+      
+      <!-- 야시장 카드 -->
+      <a class="event-card" href="/night-market.html">
+        <div class="card-image">
+          <img src="assets/market-night-odeng.png" alt="파티등이 켜진 야시장 골목에서 기념사진을 찍는 가족들과 먹거리 부스 앞 방문객들의 연출 이미지" width="800" height="400" fetchpriority="high">
+          <span class="image-badge">☾ 가을밤의 낭만</span>
+        </div>
+        <div class="card-body">
+          <p class="card-kicker">어른의 추억이 아이의 기억이 되는 밤</p>
+          <h2 class="card-title">목행 낭만상회 <span>야시장</span></h2>
+          <div class="card-info">
+            <p><strong>11. 07 <small>토</small> — 11. 08 <small>일</small></strong></p>
+            <p>토 16:30–22:00 · 일 16:00–22:30</p>
+            <p class="card-location">충주목행 작은도서관 맞은편 공용주차장</p>
+          </div>
+          <span class="card-cta">야시장 홈페이지 바로가기 <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </section>
+    
+    <p class="disclaimer">카드 이미지는 행사 이해를 돕기 위한 연출 이미지입니다.</p>
+  </main>
+  
+  <footer class="site-footer">
+    <p><strong>목행시장상인회</strong></p>
+    <p>충주 목행시장 · 2026 가을 행사</p>
+    <p>함께하는 오늘이, 오래 남을 추억으로.</p>
+  </footer>
+  
+  <!-- 상인 모집 팝업 -->
+  <dialog id="booth-popup" aria-labelledby="popup-title">
+    <div class="popup-header">
+      <h2 id="popup-title">목행시장 상인 참여 안내</h2>
+      <button type="button" class="popup-close-x" data-popup-close aria-label="팝업 닫기">×</button>
+    </div>
+    <div class="popup-body">
+      <a href="https://naver.me/5MvWZgbA" target="_blank" rel="noopener noreferrer" aria-label="먹거리부스 네이버폼 참여 신청 (새 창)">
+        <img src="assets/booth-recruitment-v4.webp" width="1080" height="1350" alt="목행시장 상인 대상 야시장 먹거리부스 모집. 접수기간: 11월 2일(월) 14:00까지. 행사일시: 11월 7일 16:30~22:00, 8일 16:00~22:30. 장소: 충주목행 작은도서관 맞은편 공용주차장. 제공: 3m×3m 부스, 테이블 2개, 의자 2개, 조명, 부스 현수막, 전기. 이미지를 누르면 네이버폼 신청으로 연결됩니다." loading="lazy">
+      </a>
+    </div>
+    <div class="popup-footer">
+      <a href="https://naver.me/5MvWZgbA" target="_blank" rel="noopener noreferrer" class="popup-cta" aria-label="부스 참여 신청하기 (새 창)">부스 참여 신청하기</a>
+      <div class="popup-actions">
+        <label class="popup-checkbox">
+          <input type="checkbox" id="popup-hide-today">
+          <span>오늘 하루 보지 않기</span>
+        </label>
+        <button type="button" class="popup-close-btn" data-popup-close>닫기</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

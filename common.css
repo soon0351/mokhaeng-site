@@ -1,0 +1,69 @@
+/* common.css - 공통 CSS 변수, 리셋, 글꼴 */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  /* 메인 허브 */
+  --color-cream: #f8f5ed;
+  --color-cream-dark: #ebe7dc;
+  
+  /* 파크골프 */
+  --color-golf-green: #173c2e;
+  --color-golf-green-light: #2a5a47;
+  --color-golf-accent: #c9a227;
+  
+  /* 야시장 */
+  --color-night-bg: #1a1a2e;
+  --color-night-surface: #25253d;
+  --color-night-warm: #f4a261;
+  --color-night-glow: #ffd166;
+  
+  /* 공통 */
+  --color-text: #222;
+  --color-text-light: #555;
+  --color-text-inverse: #fff;
+  --color-border: #ddd;
+  
+  /* 간격 */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  
+  /* 둥근 모서리 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  
+  /* 그림자 */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+  
+  /* 글꼴 */
+  --font-sans: 'Noto Sans KR', 'Manrope', sans-serif;
+  --font-display: 'Manrope', 'Noto Sans KR', sans-serif;
+  
+  /* 최대 너비 */
+  --max-width: 1200px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); line-height: 1.6; color: var(--color-text); }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: none; background: none; }
+
+.skip-link {
+  position: absolute; top: -100px; left: 0;
+  background: var(--color-text); color: var(--color-text-inverse);
+  padding: var(--space-sm) var(--space-md); z-index: 9999;
+}
+.skip-link:focus { top: 0; }
+
+.wrap { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-md); }
+@media (min-width: 768px) { .wrap { padding: 0 var(--space-xl); } }

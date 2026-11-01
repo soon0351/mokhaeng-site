@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" style="max-width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+<title id="title">목행시장 전체 공간 43m × 18m · 파크골프 배치 안내도</title>
+<desc id="desc">고객지원센터 전체 공간은 가로 43미터, 세로 18미터입니다. 골프장 세트는 반시계 방향으로 90도 회전한 아래쪽 개방형이며, 전체 공간과 같은 축척으로 가로 24미터, 세로 14미터, 코스 폭 6미터를 표시했습니다. 고객지원센터는 왼쪽 위, 휴게실 몽골부스 두 동은 왼쪽 아래에 있습니다. 건물과 부스의 개별 크기는 개념 표시입니다. 오른쪽 아래에서 출발하여 1~3홀은 홀컵 없이 이어서 치고, 왼쪽 아래 4홀의 유일한 홀컵에서 마칩니다. 중심선 진행 거리는 34미터이며 네 구간은 각각 8.5미터입니다. 펜스 높이는 50센티미터입니다.</desc>
+<metadata>{"rotationDegrees":-90,"siteWidthM":43,"siteHeightM":18,"courseWidthM":24,"courseHeightM":14,"laneWidthM":6,"unitsPerMeter":30,"courseOffsetXM":18,"courseOffsetYM":1,"centerlineLengthM":34,"stageLengthM":8.5,"holeCups":1,"restTents":2,"buildingAndTentSizes":"schematic"}</metadata>
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ded9c7" stroke-width=".6"/></pattern>
+ <pattern id="majorGrid" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="120" fill="url(#grid)"/><path d="M120 0H0V120" fill="none" stroke="#d1cbb6" stroke-width=".8"/></pattern>
+ <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f8f5e9"/><path d="M0 0H8M0 4H8M0 0V8M4 0V8" stroke="#47664e" stroke-width=".7"/></pattern>
+ <pattern id="turf" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#82a766"/><path d="M2 8l1-2m5 4l1-2m0-6l1-2" stroke="#71965b" stroke-width=".8" opacity=".6"/></pattern>
+ <marker id="arrow" viewBox="0 0 12 12" refX="8" refY="6" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1L10 6L1 11Z" fill="#fffbe9"/></marker>
+ <marker id="dimension" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M7 1L1 4L7 7" fill="none" stroke="#7e8c72" stroke-width="1"/></marker>
+ <path id="course-outline" d="M730 360H1426V766H1252V534H904V766H730Z"/>
+</defs>
+<g font-family="'Noto Sans KR','Noto Sans CJK KR','Malgun Gothic',Arial,sans-serif">
+ <rect width="1536" height="1024" fill="#f8f5e9"/>
+ <text x="120" y="58" fill="#244935" font-size="34" font-weight="800">목행시장 고객지원센터 · 전체 배치 안내도</text>
+ <text x="120" y="94" fill="#607653" font-size="21">전체 공간 43m × 18m 안에 골프장 24m × 14m를 같은 축척으로 배치했습니다.</text>
+ <!-- Exact shared scale: site 1290×540 units; course 720×420 units. -->
+ <rect id="site-footprint" x="120" y="210" width="1290" height="540" fill="url(#majorGrid)" stroke="#264a3a" stroke-width="5"/>
+ <rect x="150" y="240" width="420" height="150" fill="#234d3e" stroke="#183b2c" stroke-width="4"/>
+ <rect x="158" y="248" width="404" height="134" fill="none" stroke="#6d8a72"/>
+ <text x="360" y="313" fill="#fffbed" font-size="33" font-weight="700" text-anchor="middle">고객지원센터</text>
+ <text x="360" y="349" fill="#d9e4d5" font-size="18" text-anchor="middle">건물 크기는 개념 표시</text>
+ <path d="M310 405V382H414V405H395V394H331V405Z" fill="#e0dccb" stroke="#435b43" stroke-width="2"/>
+ <text x="360" y="467" fill="#607653" font-size="24" font-weight="600" text-anchor="middle">가족 휴게실 · 몽골부스 2동</text>
+ <g id="rest-tent-1" transform="translate(165 505)">
+ <rect x="7" y="9" width="164" height="132" rx="4" fill="#d1cbb8" opacity=".4"/>
+ <path d="M0 0Q82 13 164 0Q151 66 164 132Q82 119 0 132Q13 66 0 0Z" fill="#f0eddd" stroke="#718269" stroke-width="2.5"/>
+ <path d="M0 0L82 53L164 0M82 53L164 132M82 53L0 132" fill="none" stroke="#b2baa1" stroke-width="2"/>
+ <path d="M0 0L82 53L0 132Q13 66 0 0" fill="#e2e2cd" opacity=".7"/>
+ <path d="M164 0L82 53L164 132Q151 66 164 0" fill="#fffef4"/>
+ <circle cx="82" cy="53" r="4" fill="#718269"/>
+ <g fill="#496448"><rect x="-3" y="-3" width="7" height="7"/><rect x="160" y="-3" width="7" height="7"/><rect x="-3" y="128" width="7" height="7"/><rect x="160" y="128" width="7" height="7"/></g>
+ <text x="82" y="164" fill="#34553b" font-size="21" font-weight="600" text-anchor="middle">휴게실 1</text>
+</g><g id="rest-tent-2" transform="translate(396 505)">
+ <rect x="7" y="9" width="164" height="132" rx="4" fill="#d1cbb8" opacity=".4"/>
+ <path d="M0 0Q82 13 164 0Q151 66 164 132Q82 119 0 132Q13 66 0 0Z" fill="#f0eddd" stroke="#718269" stroke-width="2.5"/>
+ <path d="M0 0L82 53L164 0M82 53L164 132M82 53L0 132" fill="none" stroke="#b2baa1" stroke-width="2"/>
+ <path d="M0 0L82 53L0 132Q13 66 0 0" fill="#e2e2cd" opacity=".7"/>
+ <path d="M164 0L82 53L164 132Q151 66 164 0" fill="#fffef4"/>
+ <circle cx="82" cy="53" r="4" fill="#718269"/>
+ <g fill="#496448"><rect x="-3" y="-3" width="7" height="7"/><rect x="160" y="-3" width="7" height="7"/><rect x="-3" y="128" width="7" height="7"/><rect x="160" y="128" width="7" height="7"/></g>
+ <text x="82" y="164" fill="#34553b" font-size="21" font-weight="600" text-anchor="middle">휴게실 2</text>
+</g>
+ <text x="360" y="718" fill="#607653" font-size="18" text-anchor="middle">건물·부스 위치는 배치 개념을 나타냅니다.</text>
+ <g id="course-set" transform="translate(660 240) scale(1.0344827586206897) translate(-730 -360)">
+ <use href="#course-outline" fill="url(#turf)" stroke="#264735" stroke-width="19"/>
+ <use href="#course-outline" fill="none" stroke="url(#mesh)" stroke-width="13"/>
+ <use href="#course-outline" fill="none" stroke="#284d3c" stroke-width="20" stroke-dasharray="4 75" stroke-linecap="round"/>
+ <path d="M1339 679V447H817V679" fill="none" stroke="#fffbe9" stroke-width="3" stroke-dasharray="15 12" opacity=".8"/>
+ <g fill="none" stroke="#fffbe9" stroke-width="3" marker-end="url(#arrow)">
+  <path d="M1339 645V611M1339 535V505M1249 447H1218M1007 447H978M817 515V545M817 609V641"/>
+ </g>
+ <g transform="translate(1339 610)"><circle cy="3" r="24" fill="none" stroke="#4d6a33" stroke-width="13"/><circle r="24" fill="none" stroke="#dfa837" stroke-width="10"/><circle r="24" fill="none" stroke="#ffe4a3" stroke-width="3"/></g><g transform="translate(1339 520) rotate(90)"><path d="M-31 17Q-28-28 0-28Q28-28 31 17" fill="none" stroke="#485f39" stroke-width="17"/><path d="M-31 13Q-28-32 0-32Q28-32 31 13" fill="none" stroke="#ce725b" stroke-width="14"/><path d="M-31 9Q-28-35 0-35Q28-35 31 9" fill="none" stroke="#e99a81" stroke-width="3"/></g><g transform="translate(1225 447) rotate(-90)"><path d="M-35-16H35V17L25 27H-35Z" fill="#3f693a" stroke="#284b2e" stroke-width="2"/><path d="M-35-16H35L25-26H-45Z" fill="#bad392" stroke="#294c30" stroke-width="2"/><path d="M-45-26L-35-16V17L-45 7Z" fill="#709c57" stroke="#294c30" stroke-width="2"/></g><g transform="translate(1145 480)"><circle cy="3" r="24" fill="none" stroke="#4d6a33" stroke-width="13"/><circle r="24" fill="none" stroke="#dfa837" stroke-width="10"/><circle r="24" fill="none" stroke="#ffe4a3" stroke-width="3"/></g><g transform="translate(965 480) rotate(-90)"><path d="M-31 17Q-28-28 0-28Q28-28 31 17" fill="none" stroke="#485f39" stroke-width="17"/><path d="M-31 13Q-28-32 0-32Q28-32 31 13" fill="none" stroke="#ce725b" stroke-width="14"/><path d="M-31 9Q-28-35 0-35Q28-35 31 9" fill="none" stroke="#e99a81" stroke-width="3"/></g><g transform="translate(817 555) rotate(-90)"><path d="M-35-16H35V17L25 27H-35Z" fill="#3f693a" stroke="#284b2e" stroke-width="2"/><path d="M-35-16H35L25-26H-45Z" fill="#bad392" stroke="#294c30" stroke-width="2"/><path d="M-45-26L-35-16V17L-45 7Z" fill="#709c57" stroke="#294c30" stroke-width="2"/></g><g transform="translate(817 615)"><circle cy="3" r="24" fill="none" stroke="#4d6a33" stroke-width="13"/><circle r="24" fill="none" stroke="#dfa837" stroke-width="10"/><circle r="24" fill="none" stroke="#ffe4a3" stroke-width="3"/></g>
+ <circle cx="1339" cy="679" r="10" fill="#fffbed" stroke="#35593c" stroke-width="3"/>
+ <text x="1339" y="727" text-anchor="middle" fill="#fffbed" font-size="23" font-weight="700">START · 출발</text>
+ <g id="hole-1" transform="translate(1324.5 447)">
+  
+  <path d="M0 0V-67" stroke="#244c3c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 0V-67" stroke="#fffbed" stroke-width="3" stroke-linecap="round"/>
+  <path d="M2-65H59L54-46L59-27H2Z" fill="#fffbed" stroke="#244c3c" stroke-width="2"/>
+  <text x="28" y="-39" text-anchor="middle" font-size="24" font-weight="800" fill="#193e2d">1홀</text>
+</g>
+<g id="hole-2" transform="translate(1078 447)">
+  
+  <path d="M0 0V-67" stroke="#244c3c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 0V-67" stroke="#fffbed" stroke-width="3" stroke-linecap="round"/>
+  <path d="M2-65H59L54-46L59-27H2Z" fill="#fffbed" stroke="#244c3c" stroke-width="2"/>
+  <text x="28" y="-39" text-anchor="middle" font-size="24" font-weight="800" fill="#193e2d">2홀</text>
+</g>
+<g id="hole-3" transform="translate(831.5 447)">
+  
+  <path d="M0 0V-67" stroke="#244c3c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 0V-67" stroke="#fffbed" stroke-width="3" stroke-linecap="round"/>
+  <path d="M2-65H59L54-46L59-27H2Z" fill="#fffbed" stroke="#244c3c" stroke-width="2"/>
+  <text x="28" y="-39" text-anchor="middle" font-size="24" font-weight="800" fill="#193e2d">3홀</text>
+</g>
+<g id="hole-4" transform="translate(817 679)">
+  <ellipse id="only-hole-cup" rx="19" ry="12" fill="#142d22" stroke="#f8f4e5" stroke-width="4"/><ellipse rx="11" ry="6" fill="#071c13"/>
+  <path d="M0 0V-67" stroke="#244c3c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 0V-67" stroke="#fffbed" stroke-width="3" stroke-linecap="round"/>
+  <path d="M2-65H59L54-46L59-27H2Z" fill="#fffbed" stroke="#244c3c" stroke-width="2"/>
+  <text x="28" y="-39" text-anchor="middle" font-size="24" font-weight="800" fill="#193e2d">4홀</text>
+</g>
+ <text x="817" y="727" text-anchor="middle" fill="#fffbed" font-size="23" font-weight="700">FINISH · 도착</text>
+ <g fill="#607653" text-anchor="middle"><text x="1078" y="621" font-size="25" font-weight="700">코스 폭 6m</text><text x="1078" y="661" font-size="21">좌·우 세로 구간 동일 길이</text><text x="1078" y="701" font-size="19">오른쪽 아래에서 출발합니다</text></g>
+
+ </g>
+ <!-- Overall and course dimensions: extension lines reference exact bounds. -->
+ <g fill="none" stroke="#73846b" stroke-width="1.6">
+  <path d="M120 132H1410M80 210V750M660 184H1380M1450 240V660M660 704H840M1200 704H1380" marker-start="url(#dimension)" marker-end="url(#dimension)"/>
+  <path d="M120 120V196M1410 120V196M66 210H106M66 750H106M660 170V228M1380 170V228M1425 240H1467M1425 660H1467M660 674V719M840 674V719M1200 674V719M1380 674V719"/>
+ </g>
+ <g fill="#f8f5e9"><rect x="710" y="110" width="110" height="42"/><rect x="59" y="432" width="42" height="96"/><rect x="967" y="163" width="106" height="42"/><rect x="1429" y="404" width="42" height="92"/><rect x="710" y="684" width="80" height="40"/><rect x="1250" y="684" width="80" height="40"/></g>
+ <g fill="#244935" text-anchor="middle" font-size="29" font-weight="800">
+  <text x="765" y="142">43m</text><text transform="translate(90 480) rotate(-90)">18m</text>
+  <text x="1020" y="194">24m</text><text transform="translate(1460 450) rotate(-90)">14m</text>
+  <text x="750" y="714">6m</text><text x="1290" y="714">6m</text>
+ </g>
+ <rect x="120" y="795" width="1290" height="116" rx="12" fill="#eee8d2"/>
+ <text x="146" y="832" fill="#244935" font-size="28" font-weight="800">홀컵은 4홀에만 있습니다.</text>
+ <text x="146" y="872" fill="#244935" font-size="24">1~3홀은 홀컵 없이 이어서 치고, 4홀의 홀컵에서 마무리합니다.</text>
+ <text x="120" y="952" fill="#244935" font-size="23" font-weight="600">코스 중심선 34m · 네 구간 각각 8.5m · 둘레 펜스 H=50cm</text>
+ <text x="120" y="989" fill="#7e8a71" font-size="17">전체 공간·골프장 동일 축척 / 건물·부스 개별 치수 미확정 / 장애물·안전구역·설치 위치는 현장 확인</text>
+</g></svg>

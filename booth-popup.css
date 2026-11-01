@@ -1,0 +1,128 @@
+/* booth-popup.css - 상인 모집 팝업 스타일 */
+
+#booth-popup {
+  border: none;
+  border-radius: var(--radius-lg);
+  padding: 0;
+  max-width: 420px;
+  width: calc(100% - 2rem);
+  max-height: 90vh;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background: #fff;
+}
+
+#booth-popup::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.popup-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.popup-close-x {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-text-light);
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+
+.popup-close-x:hover {
+  background: var(--color-cream-dark);
+}
+
+.popup-body {
+  max-height: calc(90vh - 160px);
+  overflow-y: auto;
+}
+
+.popup-body a {
+  display: block;
+}
+
+.popup-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.popup-footer {
+  padding: var(--space-md) var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.popup-cta {
+  display: block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-golf-green);
+  color: var(--color-text-inverse);
+  text-align: center;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background 0.2s;
+}
+
+.popup-cta:hover {
+  background: var(--color-golf-green-light);
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.popup-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+.popup-checkbox input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.popup-close-btn {
+  padding: var(--space-xs) var(--space-md);
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: background 0.2s;
+}
+
+.popup-close-btn:hover {
+  background: var(--color-cream-dark);
+}
+
+/* 팝업 열릴 때 body 스크롤 막기 */
+html.popup-open {
+  overflow: hidden;
+}
